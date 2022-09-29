@@ -30,10 +30,9 @@ h1{
 
 /* Main */
 main{
-    margin:5% 10%;
-
-
+    margin: 0 10%;
 }
+
 
 .box{
     float:left;
@@ -41,7 +40,9 @@ main{
     padding-right: 3%;
     width: 30%;
     background-color: black;
-    color:#fff
+    color:#fff;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px rgb(0, 0, 0);
 }
 
 .box img{
@@ -49,20 +50,30 @@ main{
     width:auto;
     float:left;
     margin-right:1%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .box.text{
     width:fit-content;
     line-height: 220%;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .box h5{
-    font-size:18px;
+    font-size:20px;
 }
 
 .box::after{
     content:"";
     display:table;
     clear:both;
+}
+
+.box a{
+    text-decoration:none;
+    color:deepskyblue;
+}
+.box a:hover{
+    color: crimson;
 }
