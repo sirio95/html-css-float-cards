@@ -1,0 +1,31 @@
+
+/* Regole generali */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Abyssinica SIL', 'Lato', 'Raleway', serif;
+    font-size: 16px;
+}
+
+/* Header */
+header{
+    text-align: center;
+    padding:3%;
+}
+
+h1{
+    color:rgba(221, 103, 152, 0.912);
+    font-weight: 900;
+    font-size:40;
+}
+
+.sub-header{
+    margin: 3% 10%;
+}
+
+
+/* Main */
