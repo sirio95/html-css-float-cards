@@ -29,3 +29,40 @@ h1{
 
 
 /* Main */
+main{
+    margin:5% 10%;
+
+
+}
+
+.box{
+    float:left;
+    margin:1%;
+    padding-right: 3%;
+    width: 30%;
+    background-color: black;
+    color:#fff
+}
+
+.box img{
+    height:100px;
+    width:auto;
+    float:left;
+    margin-right:1%;
+}
+
+.box.text{
+    width:fit-content;
+    line-height: 220%;
+    font-size: 14px;
+}
+
+.box h5{
+    font-size:18px;
+}
+
+.box::after{
+    content:"";
+    display:table;
+    clear:both;
+}
